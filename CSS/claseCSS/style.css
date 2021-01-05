@@ -1,0 +1,18 @@
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+/* Comentarios en CSS */
+
+/*Class Selector por clase*/
+.parrafo {
+    color: red;
+    font-size: 50px;
+}
+
+/* ID Selector por id*/
+#texto {
+    color:yellow;
+    font-size: 24px;
+}
