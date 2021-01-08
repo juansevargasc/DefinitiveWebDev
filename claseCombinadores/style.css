@@ -1,0 +1,25 @@
+/*Combinador hermano cercano*/
+/*h2 + p /*Aplícale esta regla a toda etiqueta párrafo que esté cerca a un h2
+{
+    color: red;
+}
+*/
+
+/*Hermano general
+h2 ~ p
+{
+    color: red;
+}*/
+
+/* Hijo directo
+Del padre div que sea mayor padre del párrafo. La etiqueta párrafo que sea hija directa de una div
+div > p
+{
+    color: red;
+}*/
+
+/*Descendiente. Todas las etiquetas p que estén adentro de un contenedor div.*/
+div p 
+{
+    color: red;
+}

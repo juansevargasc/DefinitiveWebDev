@@ -1,0 +1,24 @@
+/*body
+{
+    font-size: 1em;
+}*/
+
+.text-container
+{
+    font-size: 1.5em;
+}
+
+.text-container div 
+{
+    font-size: 1.5em;
+}
+/*Main tiene 24 px*/
+
+/*Em.
+
+1 em son 16 px (que está por defecto en el navegador
+
+Em va a tomar el tamaño de fuente del padre. El padre del main sería html que tiene 16px
+*/
+
+
