@@ -1,0 +1,29 @@
+/*Static es la posición por defecto
+ 
+Se puede usar top-bottom-left-right con todos menos con static*/
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent
+{
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box
+{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two
+{
+    background-color: greenyellow;
+}

@@ -1,0 +1,12 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p
+{
+    border: 2px black dotted;
+    display: inline-block;
+}
