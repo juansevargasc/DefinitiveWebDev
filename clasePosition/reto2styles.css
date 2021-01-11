@@ -14,10 +14,15 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+main
+{
+    width: 90%;
+    margin: 0 auto;
+}
 
 .first-block
 {
-    position: relative;
+    position: absolute;
     font-size: 1.8rem;
     display: inline-block;
     background-color: cadetblue;
@@ -27,11 +32,17 @@ body {
     padding-top: 6px;
     margin: auto;
     border-radius: 7px;
-    top: 10px;
+    top: 5rem;
+    right: 2rem;
+    left: 2rem;
+    bottom: auto;
 }
+
 
 .second-block
 {
+    position: relative;
+    bottom: -8rem;
     font-size: 1.6rem;
     background-color: antiquewhite;
     width: 40%;
@@ -41,5 +52,6 @@ body {
     padding-bottom: 50px;
     margin: auto;
     border-radius: 7px;
-    position: relative;
+    
+    
 }

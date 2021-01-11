@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-family: ‘Nunito’, sans-serif;
+    }
+    
+    .firts-block {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    z-index: 10;
+    }
+    
+    .firts-block h2 {
+    width: 24%;
+    background: cadetblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 7px;
+    font-size: 1.8em;
+    }
+    
+    .second-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: center;
+    z-index: 20;
+    /* PARA DETERMINAR QUE ELEMENTO VA SOBRE OTRO, ES COMO SI FUERAN CAPAS A MAYOR NUMERO MAS ENFRENTE ESTA LA CAPA */
+    }
+    
+    .second-block p {
+    font-size: 1.6em;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    background: antiquewhite;
+    }
