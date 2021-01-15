@@ -37,9 +37,9 @@ header
 .nav 
 {
     margin-top: 10px;
+    
     list-style-type: none;
     padding-left: 0px;
-    position: relative;
     text-align: right;
 }
 
@@ -52,6 +52,7 @@ header
 .reel-container
 {
     position: absolute;
+    height: 100%;
     left: 0;
     right: 300px;
 }
@@ -59,28 +60,32 @@ header
 .box 
 {
     font-size: 1.6rem;
+    border: 0.3rem solid black;
+    display: flex;
     background-color:azure;
-    border: thin;
-    padding: 10px;
-    display: inline-block;
     width: 200px;
     height: 200px;
 }
 
 .text-container 
 {
+    display: flex;
+    flex-grow: 1;
+    align-items: baseline;
     position: relative;
     top: 15rem;
     bottom: auto;
-    left: 50px;
-    right: auto;
+    left: 160px;
+    right: 0;
     background-color:coral
 }
 
-.footer
+footer
 {
     background-color: aliceblue;
     padding: 10px;
+    position: absolute;
+    bottom:0;  
 }
 
 
